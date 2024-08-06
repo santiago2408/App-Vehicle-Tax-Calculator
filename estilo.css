@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('fondo1.jpeg');
+    
+}
+
+h1 {
+    color: #333;
+}
+
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-top: 5px;
+    display: block;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}

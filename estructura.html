@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Impuestos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<center><body>
+    <h1>Calculadora de Impuestos de Vehículos</h1>
+    
+    <label for="tipoVehiculo">Tipo de Vehículo:</label>
+    <select id="tipoVehiculo" name="tipoVehiculo">
+        <option value="hidrogeno">Hidrogeno</option>
+        <option value="electrico">Eléctrico</option>
+        <option value="gasolina">Gasolina</option>
+        <option value="diesel">Diésel</option>
+    </select>
+        
+    <label for="costoVehiculo">Valor del Vehículo:</label>
+    <input type="number" id="costoVehiculo" name="costoVehiculo">
+        
+    <button onclick="calculadora()">Calcular Impuesto</button>
+    
+
+    <!--Aqui aparecera el calculo del impuesto-->
+    <div id="result"></div>
+</center>
+    <script src="codigo.js"></script>
+</body>
+</html>
