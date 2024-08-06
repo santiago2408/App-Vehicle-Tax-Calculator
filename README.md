@@ -1,5 +1,7 @@
 # Calculadora de Impuesto Anual de Vehiculos para el 2024
 
+---
+
 Esta aplicación calcula el impuesto vehicular en base al tipo de combustible que utiliza el vehiculo.
 
 La formula usada es la siguiente:
@@ -11,3 +13,7 @@ Uso de O/C: Por otro lado, se usó el principio de abierto/cerrado para su const
 
 Este programa cumple con el principio abierto/cerrado ya que se pueden extender más tipos de calculadoras, cada una con su porcentaje especifico, sin necesidad de alterar el código actual.
 
+---
+
+Andres Santiago Rodriguez Reyes
+Código: 20231020089
